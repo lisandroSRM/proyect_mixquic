@@ -1,0 +1,14 @@
+.bg-opacity-custom {
+    background-color: rgba(170, 193, 190, 0.619); /* Ajusta el último valor (0.5) para cambiar la opacidad */
+    border-radius: 25px;
+  }
+#producto {
+  border-radius: 25px;
+  background-color: rgba(170, 193, 190, 0.619);
+  background-clip: padding-box;
+  transition: transform 0.3s ease;
+  overflow: hidden; 
+}
+#producto:hover {
+  transform: scale(1.1);
+}
